@@ -45,12 +45,12 @@ function draw() {
     // image(vid,0,0)
      //console.log(expression)
     if(expression){
-          console.log(expression);
+         // console.log(expression);
         for( i=0; i<7;i++)
         {
             var exp= expression.expressions[i].expression;
             var prob = expression.expressions[i].probability;
-            console.log("Expression: " +exp  +" Probability:" + prob );
+            //console.log("Expression: " +exp  +" Probability:" + prob );
             fill(255);
             textSize(12);
             //text("Expression: " +exp  +" Probability:" + prob );
@@ -58,24 +58,7 @@ function draw() {
         }
         
         
-        if(expression.length > 0){
-     
-        const {expressions} = expression[0];
-        expressions.forEach(element => console.log(element));
-        // div.elt.innerHTML = '';
-        
-      //  expressions.forEach( (item, idx) => {
-        //    console.log(item[0]);
-          //  const {expression, probability} = item;
-        //    fill(255)
-        //    // text(`${expression}: ${probability}`, 20, idx*20 )
-          //  textSize(12)
-        //    text(`${expression}:`, 70, idx*20 + 20 )
-        //    const val = map(probability, 0, 1, 0, width/2)
-          //  rect(80, idx*20 +10 , val, 15)
-        //    // div.elt.innerHTML += `${expression}: ${probability} <br>`
-        //})
-        }
+    
         
     }
 }
