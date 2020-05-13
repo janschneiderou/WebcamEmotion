@@ -1,4 +1,4 @@
-const MODEL_URL = '/libraries/face-api/weights/';
+const MODEL_URL = '../libraries/face-api/weights/';
 let vid;
 let expression;
 let btn;
